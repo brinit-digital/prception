@@ -1,0 +1,59 @@
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid d-flex justify-content-between align-items-center">
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="assets/images/logo_rgba.png" alt="logo" class="navlogo me-2">
+    </a>
+    <!-- Toggler (opens right slide menu) -->
+    <button class="navbar-toggler border-0" type="button"
+            data-bs-toggle="offcanvas" data-bs-target="#mobileNav" aria-controls="mobileNav"
+            aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  </div>
+  <!-- Desktop Links -->
+  <div class="container-fluid d-none d-lg-flex justify-content-between align-items-center">
+    <ul class="navbar-nav gap-3 align-items-center">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Services</a>
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#process">Process</a>
+      </li> -->
+    </ul>
+    <a href="https://wa.link/j6ofld" target="_blank"><button class="btn d-none d-lg-flex ms-3">
+      <span class="text">Contact</span>
+    </button></a>
+  </div>
+</nav>
+
+<!-- OFFCANVAS (Right slide-in menu on mobile) -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="mobileNav" aria-labelledby="mobileNavLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title text-white" id="mobileNavLabel">PRception</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body d-flex flex-column justify-content-center align-items-center">
+    <ul class="navbar-nav text-center">
+      <li class="nav-item mb-2">
+        <a class="nav-link active" href="#" data-bs-dismiss="offcanvas">Home</a>
+      </li>
+      <li class="nav-item mb-2">
+        <a class="nav-link" href="#contact" data-bs-dismiss="offcanvas">Contact</a>
+      </li>
+      <li class="nav-item mb-2">
+        <a class="nav-link"  href="#services" data-bs-dismiss="offcanvas">Services</a>
+      </li>
+      <!-- <li class="nav-item mb-2">
+        <a class="nav-link" href="#" data-bs-dismiss="offcanvas">Process</a>
+      </li> -->
+    </ul>
+  </div>
+</div>
